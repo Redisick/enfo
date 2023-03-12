@@ -149,6 +149,10 @@ section {
     outline-offset: 4px;
 }
 
+.btn:focus-visible {
+    outline: 2px var(--clr-darkest) solid;
+}
+
 
 /*--------------------------------------------------------------------*/
 /* HEADER */
