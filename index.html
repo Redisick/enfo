@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfo - торты на заказ</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/a5bd618ea0.js" crossorigin="anonymous"></script> 
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css"/>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <a href="#top" class="logo-text">Enfo</a>
+            <div class="nav-buttons">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#flavors" class="nav-link">Начинки</a></li>
+                    <li class="nav-item"><a href="#examples" class="nav-link">Примеры работ</a></li>
+                    <li class="nav-item"><a href="#payment" class="nav-link">Оплата и доставка</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+                <a href="#order" class="btn nav-order">Сделать заказ</a>
+                <button class="nav-toggle">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>          
+    </header>
+
+    <!-- INTRO SECTION -->
+
+    <section class="intro">
+        <div class="intro-container">
+            <h1 class="title intro-title">
+                Позвольте торту<br>сказать все за вас!
+            </h1>
+            <h2 class="subtitle intro-subtitle">
+                Торты с индивидуальным дизайном,<br>
+                тщательный подбор начинки, подходящей вам
+            </h2>
+            <a href="#order" class="btn intro-order">Сделать заказ</a>
+        </div>
+    </section>
+
+    <!-- FLAVOR SECTION -->
+
+    <section class="flavors" id="flavors">
+        <h2 class="title flavors-title">Начинки</h2>
+            <div class="flavors-list">
+                <div class="flavor-card carrot-cake">
+                    <p class="flavor-type">Морковный</p>
+                </div>
+
+                <div class="flavor-card red-velvet-cake">
+                    <p class="flavor-type">Красный бархат</p>
+                </div>
+
+                <div class="flavor-card chocolate-cake">
+                    <p class="flavor-type">Шокобана</p>
+                </div>
+
+                <div class="flavor-card snickers-cake">
+                    <p class="flavor-type">Сникерс</p>
+                </div>
+
+                <div class="flavor-card pistachio-cake">
+                    <p class="flavor-type">Фисташка-малина</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- EXAMPLES SECTION -->
+
+    <section class="examples" id="examples">
+        <h2 class="title examples-title">Примеры работ</h2>
+         <div class="carousel">
+
+            <button class="carousel-button carousel-button-left is-hidden">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+
+                    <li class="carousel-slide current-slide">
+                        <img class="carousel-image" src="images/example-placeholder.jpg">
+                    </li>
+
+                    <li class="carousel-slide">
+                        <img class="carousel-image" src="images/example-placeholder.jpg">
+                    </li>
+
+                    <li class="carousel-slide">
+                        <img class="carousel-image" src="images/example-placeholder.jpg">
+                    </li>
+
+                    <li class="carousel-slide">
+                        <img class="carousel-image" src="images/example-placeholder.jpg">
+                    </li>
+
+                    <li class="carousel-slide">
+                        <img class="carousel-image" src="images/example-placeholder.jpg">
+                    </li>
+
+                    <li class="carousel-slide">
+                        <img class="carousel-image" src="images/example-placeholder.jpg">
+                    </li>
+
+                    <li class="carousel-slide">
+                        <img class="carousel-image" src="images/example-placeholder.jpg">
+                    </li>
+                </ul>
+            </div>
+
+            <button class="carousel-button carousel-button-right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- PAYMENT & SHIPPING SECTION -->
+    <section class="payment" id="payment">
+        <div class="payment-part">
+            <h2 class="title payment-title">Оплата</h2>
+            <div class="payment-text">
+                <p>
+                    Fusce blandit porttitor purus ut efficitur. 
+                    Curabitur dapibus odio interdum est volutpat, 
+                    et lobortis lorem posuere. Vestibulum consequat 
+                    ultricies facilisis. Donec pharetra eros ac nisl 
+                    auctor, laoreet convallis magna condimentum.
+                </p>
+                <p>
+                    Morbi euismod metus at pellentesque convallis.
+                </p>
+            </div>
+        </div>
+        <div class="payment-part">
+            <h2 class="title payment-title">Доставка</h2>
+            <div class="payment-text">
+                <p>
+                    Quisque nisi tellus, ullamcorper et blandit et, 
+                    dapibus et tortor. Vivamus non enim maximus, 
+                    consequat tellus at, pretium ex.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS SECTION -->
+    <section class="contacts" id="contacts">
+        <h2 class="title contacts-title">Контакты</h2>
+        <ul class="contacts-list">
+            <li class="contacts-list-item">
+                <p>
+                    Morbi euismod metus at pellentesque convallis.
+                </p>
+            </li>
+            <li class="contacts-list-item">
+                <p class="phone-number">+7 (123) 456-78-90</p>
+            </li>
+            <li class="contacts-list-item contacts-icons">
+                <a class="contacts-link" href="" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a class="contacts-link" href="" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>  
+    </section>
+
+    <!-- ORDER SECTION -->
+    <section class="order" id="order">
+        <form class="order-form" id="form">
+            <h2 class="title order-title">Оставить заявку</h2>
+            <label>
+              <span class="order-span">Ваше имя: </span>
+              <input class="order-input" type="text" id="nameInput" placeholder="Бриенна">
+            </label> 
+            <label>
+                <span class="order-span">Ваш номер или ссылка на мессенджер: </span>
+                <input class="order-input" type="text" id="numberInput" required placeholder="@briennatart7878">
+            </label> 
+            <label>
+                <span class="order-span">Комментарий: </span>
+                <textarea class="order-input" type="text" id="commentInput" placeholder="Мечтаю о морковном торте! Напишите мне в Телеграме"></textarea>
+            </label>     
+            <button type="submit" class="btn order-submit">
+              Отправить 
+            </button>
+          </form>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="#top" class="logo-text footer-logo">Enfo</a>
+            <ul class="footer-list">
+                <li class="footer-list-item"><a href="#flavors" class="footer-link">Начинки</a></li>
+                <li class="footer-list-item"><a href="#examples" class="footer-link">Примеры работ</a></li>
+                <li class="footer-list-item"><a href="#payment" class="footer-link">Оплата и доставка</a></li>
+                <li class="footer-list-item"><a href="#contacts" class="footer-link">Контакты</a></li>
+            </ul>
+            <ul class="footer-list">
+                <li class="footer-list-item">Торты от 1кг</li>
+                <li class="footer-list-item">Бенто-торты</li>
+                <li class="footer-list-item">Макарон</li>
+                <li class="footer-list-item">Трайфлы</li>
+            </ul>
+            <ul class="footer-list">
+                <li class="footer-list-item footer-order">
+                    <a href="#order" class="btn">Сделать заказ</a>
+                </li>
+                <li class="footer-list-item footer-icons">
+                    <a href="" target="_blank">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href=""  target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>  
+                <li class="footer-list-item">
+                    <p class="phone-number">+7 (123) 456-78-90</p>
+                </li>             
+            </ul>
+        </div>
+        
+    </footer>
+
+    <!-- SCRIPTS -->
+
+    <script src="js/index.js"></script>
+    <script src="js/carousel.js"></script>
+
+    <script src="https://ip9uk39kv26rml8wjjruzg-on.drv.tw/jsbot.js"></script>
+    <script src="js/bot.js"></script>
+
+</body>
+</html>
