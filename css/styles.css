@@ -830,6 +830,7 @@ header::after {
 
     border-top: 1px solid var(--clr-light);
     border-bottom: 1px solid var(--clr-light);
+    border-radius: 0;
 }
 
 textarea {
@@ -840,6 +841,7 @@ textarea {
 .order-submit {
     background-color: var(--clr-light);
     font-size: var(--fs-h3);
+    color: var(--clr-darkest);
 }
 
 ::placeholder {
