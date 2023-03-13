@@ -1,6 +1,6 @@
 const TOKEN = "6235379673:AAF-TjGqKIvp6M-SJeSk9Co9KsWFlRfhQDM";
 
-const bot = new Bot(TOKEN, 1317467730); //946874164 1317467730
+const bot = new Bot(TOKEN, 1317467730);
 /*
 bot.getUpdates()
     .then(res => {
