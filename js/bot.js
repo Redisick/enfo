@@ -1,6 +1,6 @@
 const TOKEN = "6235379673:AAF-TjGqKIvp6M-SJeSk9Co9KsWFlRfhQDM";
 
-const bot = new Bot(TOKEN, 1317467730);
+const bot = new Bot(TOKEN, 1317467730); //946874164 1317467730
 /*
 bot.getUpdates()
     .then(res => {
@@ -10,17 +10,23 @@ bot.getUpdates()
 document.getElementById("form").addEventListener("submit", e => {
     e.preventDefault();
 
+    const name = document.getElementById("nameInput");
+    const number = document.getElementById("numberInput");
+    const comment = document.getElementById("commentInput");
+
     const text = "Имя: " +
-                document.getElementById("nameInput").value +
+                name.value +
                 "%0A" +
                 "Номер или ссылка: " +
-                document.getElementById("numberInput").value +
+                number.value +
                 "%0A" +
                 "Комментарий: " +
-                document.getElementById("commentInput").value;
+                comment.value;
 
     bot.sendMessage(text)
-        .then(res => {
-        console.log("message sent");
-    });
+        .then(console.log('message sent'));
+
+    name.value = '';
+    number.value = '';
+    comment.value = '';
 })
