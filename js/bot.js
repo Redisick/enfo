@@ -21,6 +21,6 @@ document.getElementById("form").addEventListener("submit", e => {
 
     bot.sendMessage(text)
         .then(res => {
-        console.log(res.result);
+        console.log("message sent");
     });
 })
