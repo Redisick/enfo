@@ -19,5 +19,8 @@ document.getElementById("form").addEventListener("submit", e => {
                 "Комментарий: " +
                 document.getElementById("commentInput").value;
 
-    bot.sendMessage(text);
+    bot.sendMessage(text)
+        .then(res => {
+        console.log(res.result);
+    });
 })
