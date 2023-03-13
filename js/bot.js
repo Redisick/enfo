@@ -1,12 +1,12 @@
 const TOKEN = "6235379673:AAF-TjGqKIvp6M-SJeSk9Co9KsWFlRfhQDM";
 
-const bot = new Bot(TOKEN); //946874164
-
+const bot = new Bot(TOKEN, 1317467730);
+/*
 bot.getUpdates()
     .then(res => {
         console.log(res.result);
     })
-/*
+*/
 document.getElementById("form").addEventListener("submit", e => {
     e.preventDefault();
 
@@ -20,4 +20,4 @@ document.getElementById("form").addEventListener("submit", e => {
                 document.getElementById("commentInput").value;
 
     bot.sendMessage(text);
-})*/
+})
